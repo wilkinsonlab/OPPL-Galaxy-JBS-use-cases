@@ -1,0 +1,22 @@
+?target:CLASS,
+?prop:OBJECTPROPERTY,
+?filler:CLASS 
+SELECT ASSERTED ?target SubClassOf ?prop only ?filler
+WHERE FAIL ?target SubClassOf ?prop some ?filler 
+BEGIN 
+ADD ?target SubClassOf !OnlyBadPracticeResult 
+END;
+
+# test by adding existential to catalysis
+
+# ?target:CLASS,
+# ?prop:OBJECTPROPERTY,
+# ?filler:CLASS 
+# SELECT ASSERTED ?target SubClassOf ?prop only ?filler
+# WHERE FAIL ?target SubClassOf ?prop some ?filler 
+# BEGIN 
+# ADD ?target SubClassOf ?prop some ?filler 
+# END;
+
+# 
+

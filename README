@@ -1,0 +1,10 @@
+This folders contain all the datasets needed to reproduce the workflows, including
+the results of workflows to test.
+
+In each folder: 
+
+The *.ga file stores the workflow. 
+
+The Galaxy-*.text files are intermediate steps.
+
+The rest of the files are the initial datasets (*.oppl, *.obo, *.owl, ...).

@@ -1,0 +1,12 @@
+?x:CLASS, 
+?y:INDIVIDUAL,
+?z:CLASS, 
+?w:INDIVIDUAL,
+?p:OBJECTPROPERTY 
+SELECT ASSERTED ?x SubClassOf ?p some ?z, 
+ASSERTED ?y Type ?x, 
+ASSERTED ?w Type ?z
+WHERE ?x != Nothing, ?x != Thing
+BEGIN 
+ADD ?y ?p ?w 
+END;

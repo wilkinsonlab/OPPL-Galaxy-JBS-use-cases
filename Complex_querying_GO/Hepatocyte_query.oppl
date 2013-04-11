@@ -1,0 +1,5 @@
+?hepatocyte_process:CLASS, 
+?hepatocyte_process_label:CONSTANT = MATCH(".?hepatocyte.+"),
+?part_of_or_regulates:OBJECTPROPERTY
+SELECT ?hepatocyte_process.IRI label ?hepatocyte_process_label,
+?hepatocyte_process subClassOf ?part_of_or_regulates some GO_0008150

@@ -1,0 +1,10 @@
+?process:CLASS,
+?parent_process:CLASS,
+?gene:CLASS 
+SELECT ?gene subClassOf RO_0002214 some (RO_0002217 some (?process and BFO_0000050 some ?parent_process))
+WHERE ?parent_process != GO_0008150
+BEGIN 
+ADD ?gene SubClassOf RO_0002217 some ?parent_process 
+END;
+
+

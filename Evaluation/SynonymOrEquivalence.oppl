@@ -1,0 +1,7 @@
+?target:CLASS,
+?filler:CLASS 
+SELECT ASSERTED
+?target equivalentTo ?filler
+BEGIN 
+REMOVE ?target equivalentTo ?filler 
+END;

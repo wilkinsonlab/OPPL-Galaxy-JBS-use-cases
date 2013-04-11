@@ -1,0 +1,53 @@
+The annotation provider indicates that there are more genes than the client indicated.
+The annotation provider indicates there are 436, while the client indicated only 1.
+Thus, assuming the correct total number of genes is that indicated by the annotation provider.
+The annotation provider indicates that there are more genes than the client indicated.
+The annotation provider indicates there are 436, while the client indicated only 1.
+Thus, assuming the correct total number of genes is that indicated by the annotation provider.
+The annotation provider indicates that there are more genes than the client indicated.
+The annotation provider indicates there are 436, while the client indicated only 1.
+Thus, assuming the correct total number of genes is that indicated by the annotation provider.
+The following gene(s) will be considered:
+
+DUN1	DUN1
+MRC1	MRC1
+DOT1	DOT1
+PCL10	PCL10
+CDC12	CDC12
+PSA1	PSA1
+
+Finding terms for P
+
+No terms were found for this aspect with a corrected P-value <= 0.05.
+
+
+Finding terms for C
+
+-- 1 of 1 --
+GOID	GO:XXXXXXX
+TERM	unannotated
+CORRECTED P-VALUE	
+UNCORRECTED P-VALUE	1
+FDR_RATE	100.00%
+EXPECTED_FALSE_POSITIVES	1.00
+NUM_ANNOTATIONS	6 of 6 in the list, vs 436 of 436 in the genome
+The genes annotated to this node are:
+DUN1, CDC12, DOT1, MRC1, PCL10, PSA1
+
+
+
+Finding terms for F
+
+-- 1 of 1 --
+GOID	GO:XXXXXXX
+TERM	unannotated
+CORRECTED P-VALUE	
+UNCORRECTED P-VALUE	1
+FDR_RATE	100.00%
+EXPECTED_FALSE_POSITIVES	1.00
+NUM_ANNOTATIONS	6 of 6 in the list, vs 436 of 436 in the genome
+The genes annotated to this node are:
+DUN1, CDC12, DOT1, MRC1, PCL10, PSA1
+
+
+

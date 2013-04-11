@@ -1,0 +1,5 @@
+?r:OBJECTPROPERTY
+SELECT ASSERTED negatively_regulates SubPropertyOf ?r 
+BEGIN
+ADD Transitive ?r 
+END;

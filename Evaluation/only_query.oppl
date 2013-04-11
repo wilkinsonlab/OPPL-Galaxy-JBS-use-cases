@@ -1,0 +1,7 @@
+?target:CLASS,
+?prop:OBJECTPROPERTY,
+?filler:CLASS 
+SELECT ASSERTED ?target SubClassOf ?prop only ?filler
+WHERE FAIL ?target SubClassOf ?prop some ?filler 
+ 
+

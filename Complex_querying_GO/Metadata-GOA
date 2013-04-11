@@ -1,0 +1,25 @@
+!CVS Version: Revision: 1.198 $
+!GOC Validation Date: 07/11/2011 $
+!Submission Date: 7/11/2011
+!
+! The above "Submission Date" is when the annotation project provided
+! this file to the Gene Ontology Consortium (GOC).  The "GOC Validation
+! Date" indicates when this file was last changed as a result of a GOC
+! validation and filtering process.  The "CVS Version" above is the
+! GOC version of this file.
+!
+! Note: The contents of this file may differ from that submitted to the
+! GOC. The identifiers and syntax of the file have been checked, rows of
+! data not meeting the standards set by the GOC have been removed. This
+! file may also have annotations removed because the annotations for the
+! listed Taxonomy identifier are only allowed in a file provided by
+! another annotation project.  The original submitted file is available from:
+!  http://www.geneontology.org/gene-associations/submission/
+!
+! For information on which taxon are allowed in which files please see:
+!  http://www.geneontology.org/GO.annotation.shtml#script
+!
+!gaf-version: 2.0
+!Project_name: UniProtKB GO Annotation @ EBI (UniProtKB-GOA)
+!URL: http://www.ebi.ac.uk/GOA/index.html
+!Contact Email: goa@ebi.ac.uk

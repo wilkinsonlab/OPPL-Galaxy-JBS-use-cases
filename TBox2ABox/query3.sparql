@@ -1,0 +1,5 @@
+PREFIX q: <http://www.oeg-upm.net/punning_oppl_test.owl#>
+
+SELECT ?a WHERE { 
+?a q:p q:D .
+}

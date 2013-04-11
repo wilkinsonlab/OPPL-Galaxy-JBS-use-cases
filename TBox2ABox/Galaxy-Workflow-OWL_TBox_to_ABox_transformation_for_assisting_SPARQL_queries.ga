@@ -1,0 +1,199 @@
+{
+    "a_galaxy_workflow": "true", 
+    "annotation": "", 
+    "format-version": "0.1", 
+    "name": "OWL TBox to ABox transformation for assisting SPARQL queries", 
+    "steps": {
+        "0": {
+            "annotation": "", 
+            "id": 0, 
+            "input_connections": {}, 
+            "inputs": [
+                {
+                    "description": "", 
+                    "name": "punning_oppl_test.owl"
+                }
+            ], 
+            "name": "Input dataset", 
+            "outputs": [], 
+            "position": {
+                "left": 282, 
+                "top": 117
+            }, 
+            "tool_errors": null, 
+            "tool_id": null, 
+            "tool_state": "{\"name\": \"punning_oppl_test.owl\"}", 
+            "tool_version": null, 
+            "type": "data_input", 
+            "user_outputs": []
+        }, 
+        "1": {
+            "annotation": "", 
+            "id": 1, 
+            "input_connections": {}, 
+            "inputs": [
+                {
+                    "description": "", 
+                    "name": "punning.oppl"
+                }
+            ], 
+            "name": "Input dataset", 
+            "outputs": [], 
+            "position": {
+                "left": 278, 
+                "top": 200
+            }, 
+            "tool_errors": null, 
+            "tool_id": null, 
+            "tool_state": "{\"name\": \"punning.oppl\"}", 
+            "tool_version": null, 
+            "type": "data_input", 
+            "user_outputs": []
+        }, 
+        "2": {
+            "annotation": "", 
+            "id": 2, 
+            "input_connections": {}, 
+            "inputs": [
+                {
+                    "description": "", 
+                    "name": "triple.oppl"
+                }
+            ], 
+            "name": "Input dataset", 
+            "outputs": [], 
+            "position": {
+                "left": 282, 
+                "top": 374
+            }, 
+            "tool_errors": null, 
+            "tool_id": null, 
+            "tool_state": "{\"name\": \"triple.oppl\"}", 
+            "tool_version": null, 
+            "type": "data_input", 
+            "user_outputs": []
+        }, 
+        "3": {
+            "annotation": "", 
+            "id": 3, 
+            "input_connections": {}, 
+            "inputs": [
+                {
+                    "description": "", 
+                    "name": "query3.sparql"
+                }
+            ], 
+            "name": "Input dataset", 
+            "outputs": [], 
+            "position": {
+                "left": 289, 
+                "top": 525
+            }, 
+            "tool_errors": null, 
+            "tool_id": null, 
+            "tool_state": "{\"name\": \"query3.sparql\"}", 
+            "tool_version": null, 
+            "type": "data_input", 
+            "user_outputs": []
+        }, 
+        "4": {
+            "annotation": "", 
+            "id": 4, 
+            "input_connections": {
+                "OPPL": {
+                    "id": 1, 
+                    "output_name": "output"
+                }, 
+                "input": {
+                    "id": 0, 
+                    "output_name": "output"
+                }
+            }, 
+            "inputs": [], 
+            "name": "Execute an OPPL file against an ontology", 
+            "outputs": [
+                {
+                    "name": "output", 
+                    "type": "text"
+                }
+            ], 
+            "position": {
+                "left": 483, 
+                "top": 115
+            }, 
+            "post_job_actions": {}, 
+            "tool_errors": null, 
+            "tool_id": "oppl", 
+            "tool_state": "{\"__page__\": 0, \"format\": \"\\\"OWL\\\"\", \"reasoner\": \"\\\"HermiT\\\"\", \"input\": \"null\", \"chromInfo\": \"\\\"/group/galaxy-dist/tool-data/shared/ucsc/chrom/?.len\\\"\", \"OPPL\": \"null\"}", 
+            "tool_version": "1.0.8", 
+            "type": "tool", 
+            "user_outputs": []
+        }, 
+        "5": {
+            "annotation": "", 
+            "id": 5, 
+            "input_connections": {
+                "OPPL": {
+                    "id": 2, 
+                    "output_name": "output"
+                }, 
+                "input": {
+                    "id": 4, 
+                    "output_name": "output"
+                }
+            }, 
+            "inputs": [], 
+            "name": "Execute an OPPL file against an ontology", 
+            "outputs": [
+                {
+                    "name": "output", 
+                    "type": "text"
+                }
+            ], 
+            "position": {
+                "left": 734, 
+                "top": 331
+            }, 
+            "post_job_actions": {}, 
+            "tool_errors": null, 
+            "tool_id": "oppl", 
+            "tool_state": "{\"__page__\": 0, \"format\": \"\\\"OWL\\\"\", \"reasoner\": \"\\\"Pellet\\\"\", \"input\": \"null\", \"chromInfo\": \"\\\"/group/galaxy-dist/tool-data/shared/ucsc/chrom/?.len\\\"\", \"OPPL\": \"null\"}", 
+            "tool_version": "1.0.8", 
+            "type": "tool", 
+            "user_outputs": []
+        }, 
+        "6": {
+            "annotation": "", 
+            "id": 6, 
+            "input_connections": {
+                "ontology": {
+                    "id": 5, 
+                    "output_name": "output"
+                }, 
+                "query_file": {
+                    "id": 3, 
+                    "output_name": "output"
+                }
+            }, 
+            "inputs": [], 
+            "name": "Execute an SPARQL query against an OWL ontology", 
+            "outputs": [
+                {
+                    "name": "output", 
+                    "type": "text"
+                }
+            ], 
+            "position": {
+                "left": 1010, 
+                "top": 487
+            }, 
+            "post_job_actions": {}, 
+            "tool_errors": null, 
+            "tool_id": "SPARQLGalaxy", 
+            "tool_state": "{\"__page__\": 0, \"ontology\": \"null\", \"chromInfo\": \"\\\"/group/galaxy-dist/tool-data/shared/ucsc/chrom/?.len\\\"\", \"query_file\": \"null\"}", 
+            "tool_version": "1.0.1", 
+            "type": "tool", 
+            "user_outputs": []
+        }
+    }
+}

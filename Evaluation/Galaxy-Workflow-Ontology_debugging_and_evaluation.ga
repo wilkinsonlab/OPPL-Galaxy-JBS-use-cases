@@ -1,0 +1,88 @@
+{
+    "a_galaxy_workflow": "true", 
+    "annotation": "", 
+    "format-version": "0.1", 
+    "name": "Ontology debugging and evaluation", 
+    "steps": {
+        "0": {
+            "annotation": "", 
+            "id": 0, 
+            "input_connections": {}, 
+            "inputs": [], 
+            "name": "Get ontology by id", 
+            "outputs": [
+                {
+                    "name": "output", 
+                    "type": "text"
+                }
+            ], 
+            "position": {
+                "left": 234, 
+                "top": 200
+            }, 
+            "post_job_actions": {}, 
+            "tool_errors": null, 
+            "tool_id": "get_ontology", 
+            "tool_state": "{\"__page__\": 0, \"api_key\": \"\\\"24e24588-54e0-11e0-9d7b-005056aa3316 \\\"\", \"chromInfo\": \"\\\"/group/galaxy-dist/tool-data/shared/ucsc/chrom/?.len\\\"\", \"id_opts\": \"{\\\"ontology_id\\\": \\\"1522\\\", \\\"id_opts_menu\\\": \\\"False\\\", \\\"__current_case__\\\": 1}\"}", 
+            "tool_version": "1.0.3", 
+            "type": "tool", 
+            "user_outputs": []
+        }, 
+        "1": {
+            "annotation": "", 
+            "id": 1, 
+            "input_connections": {}, 
+            "inputs": [
+                {
+                    "description": "", 
+                    "name": "only.oppl"
+                }
+            ], 
+            "name": "Input dataset", 
+            "outputs": [], 
+            "position": {
+                "left": 235, 
+                "top": 524
+            }, 
+            "tool_errors": null, 
+            "tool_id": null, 
+            "tool_state": "{\"name\": \"only.oppl\"}", 
+            "tool_version": null, 
+            "type": "data_input", 
+            "user_outputs": []
+        }, 
+        "2": {
+            "annotation": "", 
+            "id": 2, 
+            "input_connections": {
+                "OPPL": {
+                    "id": 1, 
+                    "output_name": "output"
+                }, 
+                "input": {
+                    "id": 0, 
+                    "output_name": "output"
+                }
+            }, 
+            "inputs": [], 
+            "name": "Execute an OPPL file against an ontology", 
+            "outputs": [
+                {
+                    "name": "output", 
+                    "type": "text"
+                }
+            ], 
+            "position": {
+                "left": 420, 
+                "top": 314
+            }, 
+            "post_job_actions": {}, 
+            "tool_errors": null, 
+            "tool_id": "oppl", 
+            "tool_state": "{\"__page__\": 0, \"format\": \"\\\"OWL\\\"\", \"reasoner\": \"\\\"Pellet\\\"\", \"input\": \"null\", \"chromInfo\": \"\\\"/group/galaxy-dist/tool-data/shared/ucsc/chrom/?.len\\\"\", \"OPPL\": \"null\"}", 
+            "tool_version": "1.0.8", 
+            "type": "tool", 
+            "user_outputs": []
+        }
+    }
+}

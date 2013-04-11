@@ -1,0 +1,18 @@
+?hepatocyte_process:CLASS	GO:0072574
+?part_of_or_regulates:OBJECTPROPERTY	part:of
+?hepatocyte_process_label:CONSTANT	hepatocyte proliferation"^^xsd:strin
+?part_of_or_regulates:OBJECTPROPERTY	regulates
+?hepatocyte_process:CLASS	GO:0048012
+?hepatocyte_process_label:CONSTANT	hepatocyte growth factor receptor signaling pathway"^^xsd:strin
+?hepatocyte_process:CLASS	GO:0048012
+?part_of_or_regulates:OBJECTPROPERTY	part:of
+?hepatocyte_process_label:CONSTANT	hepatocyte growth factor receptor signaling pathway"^^xsd:strin
+?hepatocyte_process:CLASS	GO:0048175
+?part_of_or_regulates:OBJECTPROPERTY	part:of
+?hepatocyte_process_label:CONSTANT	hepatocyte growth factor biosynthetic process"^^xsd:strin
+?hepatocyte_process_label:CONSTANT	hepatocyte cell migration"^^xsd:strin
+?part_of_or_regulates:OBJECTPROPERTY	part:of
+?hepatocyte_process:CLASS	GO:0002194
+?hepatocyte_process_label:CONSTANT	hepatocyte differentiation"^^xsd:strin
+?hepatocyte_process:CLASS	GO:0070365
+?part_of_or_regulates:OBJECTPROPERTY	part:of

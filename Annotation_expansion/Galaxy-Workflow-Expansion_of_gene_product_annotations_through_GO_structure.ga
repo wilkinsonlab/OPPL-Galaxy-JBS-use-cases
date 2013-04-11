@@ -1,0 +1,87 @@
+{
+    "a_galaxy_workflow": "true", 
+    "annotation": "", 
+    "format-version": "0.1", 
+    "name": "Expansion of gene product annotations through GO structure", 
+    "steps": {
+        "0": {
+            "annotation": "", 
+            "id": 0, 
+            "input_connections": {}, 
+            "inputs": [
+                {
+                    "description": "", 
+                    "name": "gene_association.PAMGO_Atumefaciens.gaf-merged.owl"
+                }
+            ], 
+            "name": "Input dataset", 
+            "outputs": [], 
+            "position": {
+                "left": 196, 
+                "top": 200
+            }, 
+            "tool_errors": null, 
+            "tool_id": null, 
+            "tool_state": "{\"name\": \"gene_association.PAMGO_Atumefaciens.gaf-merged.owl\"}", 
+            "tool_version": null, 
+            "type": "data_input", 
+            "user_outputs": []
+        }, 
+        "1": {
+            "annotation": "", 
+            "id": 1, 
+            "input_connections": {}, 
+            "inputs": [
+                {
+                    "description": "", 
+                    "name": "annotation_expansion.oppl"
+                }
+            ], 
+            "name": "Input dataset", 
+            "outputs": [], 
+            "position": {
+                "left": 207, 
+                "top": 464
+            }, 
+            "tool_errors": null, 
+            "tool_id": null, 
+            "tool_state": "{\"name\": \"annotation_expansion.oppl\"}", 
+            "tool_version": null, 
+            "type": "data_input", 
+            "user_outputs": []
+        }, 
+        "2": {
+            "annotation": "", 
+            "id": 2, 
+            "input_connections": {
+                "OPPL": {
+                    "id": 1, 
+                    "output_name": "output"
+                }, 
+                "input": {
+                    "id": 0, 
+                    "output_name": "output"
+                }
+            }, 
+            "inputs": [], 
+            "name": "Execute an OPPL file against an ontology", 
+            "outputs": [
+                {
+                    "name": "output", 
+                    "type": "text"
+                }
+            ], 
+            "position": {
+                "left": 408, 
+                "top": 298
+            }, 
+            "post_job_actions": {}, 
+            "tool_errors": null, 
+            "tool_id": "oppl", 
+            "tool_state": "{\"__page__\": 0, \"format\": \"\\\"OWL\\\"\", \"reasoner\": \"\\\"Pellet\\\"\", \"input\": \"null\", \"chromInfo\": \"\\\"/group/galaxy-dist/tool-data/shared/ucsc/chrom/?.len\\\"\", \"OPPL\": \"null\"}", 
+            "tool_version": "1.0.8", 
+            "type": "tool", 
+            "user_outputs": []
+        }
+    }
+}

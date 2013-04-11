@@ -1,0 +1,87 @@
+The following gene(s) will be considered:
+
+DUN1	DUN1
+MRC1	MRC1
+DOT1	DOT1
+PCL10	PCL10
+CDC12	CDC12
+PSA1	PSA1
+
+Finding terms for P
+
+-- 1 of 19 --
+GOID	GO:0000077
+TERM	DNA damage checkpoint
+CORRECTED P-VALUE	0.0457831151929942
+UNCORRECTED P-VALUE	0.00240963764173654
+FDR_RATE	2.00%
+EXPECTED_FALSE_POSITIVES	0.02
+NUM_ANNOTATIONS	3 of 6 in the list, vs 24 of 450 in the genome
+The genes annotated to this node are:
+DUN1, DOT1, MRC1
+
+-- 2 of 19 --
+GOID	GO:0006950
+TERM	response to stress
+CORRECTED P-VALUE	0.0457831151929942
+UNCORRECTED P-VALUE	0.00240963764173654
+FDR_RATE	1.00%
+EXPECTED_FALSE_POSITIVES	0.02
+NUM_ANNOTATIONS	3 of 6 in the list, vs 24 of 450 in the genome
+The genes annotated to this node are:
+DUN1, DOT1, MRC1
+
+-- 3 of 19 --
+GOID	GO:0006974
+TERM	response to DNA damage stimulus
+CORRECTED P-VALUE	0.0457831151929942
+UNCORRECTED P-VALUE	0.00240963764173654
+FDR_RATE	0.67%
+EXPECTED_FALSE_POSITIVES	0.02
+NUM_ANNOTATIONS	3 of 6 in the list, vs 24 of 450 in the genome
+The genes annotated to this node are:
+DUN1, DOT1, MRC1
+
+-- 4 of 19 --
+GOID	GO:0033554
+TERM	cellular response to stress
+CORRECTED P-VALUE	0.0457831151929942
+UNCORRECTED P-VALUE	0.00240963764173654
+FDR_RATE	0.50%
+EXPECTED_FALSE_POSITIVES	0.02
+NUM_ANNOTATIONS	3 of 6 in the list, vs 24 of 450 in the genome
+The genes annotated to this node are:
+DUN1, DOT1, MRC1
+
+
+
+Finding terms for C
+
+-- 1 of 1 --
+GOID	GO:XXXXXXX
+TERM	unannotated
+CORRECTED P-VALUE	
+UNCORRECTED P-VALUE	1
+FDR_RATE	100.00%
+EXPECTED_FALSE_POSITIVES	1.00
+NUM_ANNOTATIONS	6 of 6 in the list, vs 450 of 450 in the genome
+The genes annotated to this node are:
+DUN1, CDC12, DOT1, MRC1, PCL10, PSA1
+
+
+
+Finding terms for F
+
+-- 1 of 1 --
+GOID	GO:XXXXXXX
+TERM	unannotated
+CORRECTED P-VALUE	
+UNCORRECTED P-VALUE	1
+FDR_RATE	100.00%
+EXPECTED_FALSE_POSITIVES	1.00
+NUM_ANNOTATIONS	6 of 6 in the list, vs 450 of 450 in the genome
+The genes annotated to this node are:
+DUN1, CDC12, DOT1, MRC1, PCL10, PSA1
+
+
+

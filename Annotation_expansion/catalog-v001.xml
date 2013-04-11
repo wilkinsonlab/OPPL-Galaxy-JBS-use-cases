@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1350471097319" name="gene_association.PAMGO_Atumefaciens.gaf" uri="gene_association.PAMGO_Atumefaciens.gaf-merged.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1350471097319" name="file:/group/galaxy-dist/database/files/000/gene_association.PAMGO_Atumefaciens.gaf" uri="dataset_84.dat.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1350471097319" name="file:/home/megana/galaxy-dist/database/files/000/gene_association.PAMGO_Atumefaciens.gaf" uri="LD2_Galaxy5-%5BExecute_an_OPPL_file_against_an_ontology_on_data_1_and_data_4%5D.text.owl"/>
+    </group>
+</catalog>

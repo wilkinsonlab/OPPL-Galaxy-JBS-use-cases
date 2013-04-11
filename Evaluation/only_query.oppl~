@@ -1,0 +1,23 @@
+?target:CLASS,
+?prop:OBJECTPROPERTY,
+?filler:CLASS 
+SELECT ASSERTED ?target SubClassOf ?prop only ?filler
+WHERE FAIL ?target SubClassOf ?prop some ?filler 
+
+# test by adding existential to catalysis
+
+# ?target:CLASS,
+# ?prop:OBJECTPROPERTY,
+# ?filler:CLASS 
+# SELECT ASSERTED ?target SubClassOf ?prop only ?filler
+# WHERE FAIL ?target SubClassOf ?prop some ?filler 
+# BEGIN 
+# ADD ?target SubClassOf ?prop some ?filler 
+# END;
+
+# More information: Rector, A., N. Drummond, M. Horridge, J. Rogers, 
+# H. Knublauch, R. Stevens, H. Wang and C. Wroe (2004). OWL Pizzas: Common 
+# errors & common patterns from practical experience of teaching OWL-DL. 
+# European Knowledge Acquisition Workshop (EKAW-2004), Northampton, 
+# England, Springer Verlag: 63-81. 
+
